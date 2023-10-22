@@ -8,7 +8,7 @@ const MyDetail = () => {
           <Image height={'100%'} src="/MyPic/MyPicture.jpg" />
         </div>
       </Col>
-      <Col flex="1 1 800px" className="DetailBlog">
+      <Col flex="1 1 1500px" className="DetailBlog">
           <h1 style={{fontSize:'2.2rem'}}>Udomsark Amnuaysookwong</h1>
           <h2>Web Full-Stack Developer</h2>
           <p>
