@@ -2,6 +2,9 @@ body {
   margin: 0;
   background-color: #D8D8D8;
 }
+h2 {
+  color: #6C5F5B;
+}
 .height100 {
   height: 100%;
 }
@@ -25,15 +28,18 @@ body {
   margin: 24px;
   text-align: center;
   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+  background-color: whitesmoke;
 }
 .CardConfig2 {
   margin: 24px;
   text-align: center;
   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+  background-color: whitesmoke;
 }
 .CardEducation {
   text-align: left;
   height: 100%;
+  box-shadow: 0 0 5px 0;
 }
 .EducationInfo {
   display: flex;
@@ -46,6 +52,9 @@ body {
   justify-content: space-between;
   width: 100%; /* หรือความกว้างที่คุณต้องการ */
 }
+.ant-divider-horizontal {
+  background-color: #4F4A45 !important;
+}
 .logoProgrammingW, .logoProgrammingD {
   width: 100%;
 }
@@ -57,7 +66,7 @@ body {
 .footer {
   padding: 20px;
   text-align: center;
-  border-top: 2px solid whitesmoke;
-  box-shadow: 0 0 10px 0;
-  background-color: #FFFFFF;
+  border-top: 2px solid #6C5F5B;
+  box-shadow: 0 0 5px 0;
+  background-color: #4F4A45;
 }

@@ -6,7 +6,7 @@ const Education = () => (
     <Divider />
     <Row gutter={[16, 16]}>
       <Col flex="1 1 auto">
-        <Card className="CardEducation">
+        <Card className="CardEducation" bordered={true}>
           <Row>
             <Col flex="1 1 30%" className="DisplayCenter">
               <Image height={"100px"} src="/MyPic/Seekan Logo.png" />
@@ -22,7 +22,7 @@ const Education = () => (
       </Col>
 
       <Col flex="1 1 auto">
-        <Card className="CardEducation">
+        <Card className="CardEducation" bordered={true}>
           <Row>
             <Col flex="1 1 30%" className="DisplayCenter">
               <Image height={"100px"} src="/MyPic/Rumutto.png" />
