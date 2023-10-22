@@ -9,7 +9,7 @@ const MyDetail = () => {
         </div>
       </Col>
       <Col flex="1 1 85%" className="DetailBlog">
-          <h1>Udomsark Amnuaysookwong</h1>
+          <h1 style={{fontSize:'2.5rem'}}>Udomsark Amnuaysookwong</h1>
           <h2>Web Full-Stack Developer</h2>
           <p>
             My name is Max. I have an interest in programming, so I started
