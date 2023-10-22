@@ -3,7 +3,7 @@ import { Card, Divider, Row, Col, Image } from "antd";
 
 const SoftwareSkill = () => (
   <Card bordered={true} className="CardConfig2">
-    <h2>EDUCATION</h2>
+    <h2>SOFTWARE SKILL</h2>
     <Divider />
     <Row>
       <Col flex="1 1 20%" className="IconProgramming">
