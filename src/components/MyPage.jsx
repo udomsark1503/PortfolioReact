@@ -14,12 +14,12 @@ const MyPage = () => {
         <FirstInfo />
       </Row>
       <Row>
-        <Col flex="1 1 55%" className="height100">
+        <Col flex="1 1 55%">
         <Education />
         <JobHistory />
         <MyCertificate />
         </Col>
-        <Col flex="1 1 25%" className="height100" >
+        <Col flex="1 1 30%" >
         <Personal />
         <SoftwareSkill />
         </Col>
