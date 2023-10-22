@@ -11,7 +11,6 @@ h2 {
 .DisplayCenter {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .MyDetail {
   background-color: #4F4A45;
@@ -40,6 +39,7 @@ h2 {
   text-align: left;
   height: 100%;
   box-shadow: 0 0 5px 0;
+  background-color: whitesmoke;
 }
 .EducationInfo {
   display: flex;
