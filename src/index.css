@@ -6,11 +6,14 @@ h2 {
   color: #6C5F5B;
 }
 .height100 {
-  height: 100%;
+  height: 100% !important;
 }
 .DisplayCenter {
   display: flex;
   justify-content: center;
+}
+.IMGHead {
+  max-width: 350px;
 }
 .MyDetail {
   background-color: #4F4A45;
@@ -19,7 +22,10 @@ h2 {
 .MyDetail h1,h2 {
   margin: 15px 0;
 }
-
+.MyPic {
+  border: 1px solid black;
+  border-radius: 10px;
+}
 .DetailBlog {
   font-size: 1.4rem;
   padding: 0 24px;

@@ -25,7 +25,7 @@ const Education = () => (
         <Card className="CardEducation" bordered={true}>
           <Row>
             <Col flex="1 1 30%" className="DisplayCenter">
-              <Image height={"100px"} src="/MyPic/Rumutto.png" />
+              <Image width={70} height={"100px"} src="/MyPic/Rumutto.png" />
             </Col>
             <Col flex="1 1 70%" className="EducationInfo">
               <div>
