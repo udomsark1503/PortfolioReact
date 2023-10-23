@@ -3,9 +3,15 @@ import { Row, Image, Col } from "antd";
 const MyDetail = () => {
   return (
     <Row className="MyDetail">
+<<<<<<< HEAD
       <Col flex="1 1 200px" className="DisplayCenter">
         <div className="DisplayCenter IMGHead">
           <Image className='MyPic' height={'100%'} src="/MyPic/MyPicture.jpg" />
+=======
+      <Col flex="1 1 15vw" className="DisplayCenter">
+        <div className="DisplayCenter">
+          <Image height={'100%'} src="/MyPic/MyPicture.jpg" />
+>>>>>>> 8d03c5fc7c63c492e29885ad9d1b826f28b304aa
         </div>
       </Col>
       <Col flex="1 1 80%" className="DetailBlog">
