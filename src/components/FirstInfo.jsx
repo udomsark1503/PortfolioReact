@@ -3,12 +3,12 @@ import { Row, Image, Col } from "antd";
 const MyDetail = () => {
   return (
     <Row className="MyDetail">
-      <Col flex="1 1 100px" className="DisplayCenter">
+      <Col flex="1 1 15vw" className="DisplayCenter">
         <div className="DisplayCenter">
           <Image height={'100%'} src="/MyPic/MyPicture.jpg" />
         </div>
       </Col>
-      <Col flex="1 1 1500px" className="DetailBlog">
+      <Col flex="1 1 80%" className="DetailBlog">
           <h1 style={{fontSize:'2.2rem'}}>Udomsark Amnuaysookwong</h1>
           <h2>Web Full-Stack Developer</h2>
           <p>
