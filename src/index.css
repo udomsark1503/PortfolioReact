@@ -16,8 +16,10 @@ h2 {
   max-width: 350px;
 }
 .MyDetail {
-  background-color: #4F4A45;
-  color: #F6F1EE;
+  background-color: #F1F0E8;
+  color: #BFB29E;
+  font-weight: bold;
+  box-shadow: 0 0 5px 0;
 }
 .MyDetail h1,h2 {
   margin: 15px 0;
@@ -73,7 +75,8 @@ h2 {
 .footer {
   padding: 20px;
   text-align: center;
-  border-top: 1px solid 4F4A45;
   box-shadow: 0 0 5px 0;
-  background-color: #4F4A45;
+  font-weight: bold;
+  background-color: ##F1F0E8;
+  color: #BFB29E;
 }
