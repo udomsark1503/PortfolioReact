@@ -72,6 +72,9 @@ h2 {
   align-items: center;
   margin: 20px;
 }
+.ant-timeline .ant-timeline-item-head {
+  background-color: #f5f5f5; 
+}
 .footer {
   padding: 20px;
   text-align: center;
