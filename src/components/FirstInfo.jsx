@@ -6,7 +6,7 @@ const MyDetail = () => {
       <Col xs={16} sm={10} md={10} lg={6} xl={4} xxl={4} className="DisplayCenter">
           <Image height={'100%'} src="/MyPic/MyPicture.jpg" />
       </Col>
-      <Col xs={24} sm={24} md={14} lg={18} xl={20} xxl={20} className="DetailBlog">
+      <Col xs={24} sm={24} md={24} lg={18} xl={20} xxl={20} className="DetailBlog">
           <h1 style={{fontSize:'2.2rem'}}>Udomsark Amnuaysookwong</h1>
           <h2>Web Full-Stack Developer</h2>
           <p>
