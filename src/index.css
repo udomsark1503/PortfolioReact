@@ -10,21 +10,23 @@ h2 {
 }
 .DisplayCenter {
   display: flex;
-  justify-content: center;
-}
-.IMGHead {
-  max-width: 350px;
+  justify-content: center !important;
+  align-items: center;
 }
 .MyDetail {
   background-color: #4F4A45;
   color: #F6F1EE;
+  display: flex;
+  justify-content: center;
+}
+.MyDetail h1 {
+  margin-top: 0 !important;
+}
+.MyDetail p {
+  margin-bottom: 0 !important;
 }
 .MyDetail h1,h2 {
   margin: 15px 0;
-}
-.MyPic {
-  border: 1px solid black;
-  border-radius: 10px;
 }
 .DetailBlog {
   font-size: 1.4rem;
@@ -51,7 +53,6 @@ h2 {
 .EducationInfo {
   display: flex;
   align-items: center;
-  padding-left: 20px;
 }
 .config-info {
   display: flex;
@@ -61,14 +62,6 @@ h2 {
 }
 .ant-divider-horizontal {
   background-color: #4F4A45 !important;
-}
-.logoProgrammingW, .logoProgrammingD {
-  width: 100%;
-}
-.IconProgramming {
-  display: flex;
-  align-items: center;
-  margin: 20px;
 }
 .footer {
   padding: 20px;

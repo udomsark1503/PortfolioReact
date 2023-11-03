@@ -3,12 +3,10 @@ import { Row, Image, Col } from "antd";
 const MyDetail = () => {
   return (
     <Row className="MyDetail">
-      <Col flex="1 1 200px" className="DisplayCenter">
-        <div className="DisplayCenter IMGHead">
-          <Image className='MyPic' height={'100%'} src="/MyPic/MyPicture.jpg" />
-        </div>
+      <Col xs={16} sm={10} md={10} lg={6} xl={4} xxl={4} className="DisplayCenter">
+          <Image height={'100%'} src="/MyPic/MyPicture.jpg" />
       </Col>
-      <Col flex="1 1 80%" className="DetailBlog">
+      <Col xs={24} sm={24} md={14} lg={18} xl={20} xxl={20} className="DetailBlog">
           <h1 style={{fontSize:'2.2rem'}}>Udomsark Amnuaysookwong</h1>
           <h2>Web Full-Stack Developer</h2>
           <p>

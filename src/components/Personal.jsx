@@ -28,11 +28,21 @@ const items = [
   },
   {
     key: '6',
+    label: 'Line',
+    children: 'themaxky1863',
+  },
+  {
+    key: '7',
+    label: 'Facebook',
+    children: 'Max Udomsak',
+  },
+  {
+    key: '8',
     label: 'Status',
     children: 'Single',
   },
   {
-    key: '7',
+    key: '9',
     label: 'Address',
     children: '166/671 Niran Condotel 2, Donmuange',
   },
